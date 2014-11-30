@@ -7,7 +7,7 @@ answerMeTarotApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/phones', {
-        templateUrl: 'http://localhost:8892/test.html',
+        templateUrl: 'http://answermetarot.2jmsoft.com/test.html',
         controller: 'PhoneListCtrl'
       }).
       when('/phones/:phoneId', {
