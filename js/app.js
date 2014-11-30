@@ -7,7 +7,7 @@ answerMeTarotApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/phones', {
-        templateUrl: 'test.html',
+        templateUrl: 'http://localhost:8892/test.html',
         controller: 'PhoneListCtrl'
       }).
       when('/phones/:phoneId', {
